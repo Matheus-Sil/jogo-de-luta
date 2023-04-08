@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.lutadores {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+#guerreiro, #monstro {
+    flex: 1;  
+}
+
+.lifebar{
+    width: 100%;
+    height: 15px;
+    border: 1px solid #666;
+    border-radius: 15px;
+}
+
+.lifebar .life {
+    width: 10%;
+    height:inherit;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.attack {
+    display:block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: goldenrod;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.log {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #666;
+    margin-top: 10%;
+    padding: 10px;
+}
